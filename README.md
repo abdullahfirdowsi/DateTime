@@ -17,5 +17,5 @@ This is a web application that displays the current local time and the time base
 
 ## Prerequisites
 To run this application, you need to have the following installed:
-- [.NET SDK](https://dotnet.microsoft.com/download) (version X.X or later)
+- [.NET SDK](https://dotnet.microsoft.com/download) (version 8.0 or later)
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
