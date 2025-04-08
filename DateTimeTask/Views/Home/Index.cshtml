@@ -1,0 +1,70 @@
+﻿@model DateTimeTask.Models.TimeZoneViewModel
+@{
+    ViewData["Title"] = "Date & Time Display";
+    var localTime = DateTime.Now;
+    var timeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById(Model.SelectedTimeZone);
+    var selectedTime = TimeZoneInfo.ConvertTime(DateTime.Now, timeZoneInfo);
+}
+
+<div>
+    <h2>Date & Time Display</h2>
+    <div>
+        <strong>Local Time:</strong> <span id="local-time">@localTime.ToString("yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture)</span>
+    </div>
+    <div>
+        <strong>Selected Time Zone:</strong> <span id="selected-timezone">@Model.SelectedTimeZone</span>
+    </div>
+    <div>
+        <strong>Selected Time:</strong> <span id="selected-time">@selectedTime.ToString("yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture)</span>
+    </div>
+
+    <form asp-action="UpdateTimeZone" asp-controller="Home" method="post">
+        <label for="SelectedTimeZone">Select Time Zone:</label>
+        <select id="SelectedTimeZone" name="SelectedTimeZone" asp-items="@(new SelectList(Model.TimeZones))" onchange="updateSelectedTime()">
+        </select>
+        <button type="submit">Update</button>
+    </form>
+</div>
+
+<script>
+    // Update the date and time every second
+    setInterval(updateTime, 1000); // 1000 milliseconds = 1 second
+
+    // Function to update local and selected time
+    function updateTime() {
+        const localTimeElement = document.getElementById("local-time");
+        const selectedTimeElement = document.getElementById("selected-time");
+        const selectedTimeZoneElement = document.getElementById("SelectedTimeZone");
+
+        // Update Local Time
+        const now = new Date();
+        localTimeElement.innerHTML = formatDate(now); // Shows formatted local time
+
+        // Update Selected Time
+        const timeZone = selectedTimeZoneElement.value;
+        const selectedTime = new Date(now.toLocaleString("en-US", { timeZone: timeZone }));
+        selectedTimeElement.innerHTML = formatDate(selectedTime); // Shows the updated time in selected timezone
+    }
+
+    // Formats date as "yyyy-MM-dd HH:mm:ss" similar to InvariantCulture
+    function formatDate(date) {
+        let yyyy = date.getFullYear();
+        let mm = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-based
+        let dd = String(date.getDate()).padStart(2, '0');
+        let hh = String(date.getHours()).padStart(2, '0');
+        let min = String(date.getMinutes()).padStart(2, '0');
+        let ss = String(date.getSeconds()).padStart(2, '0');
+
+        return `${yyyy}-${mm}-${dd} ${hh}:${min}:${ss}`;
+    }
+
+    // Updates the displayed time when the timezone is changed
+    function updateSelectedTime() {
+        const selectedTimeZone = document.getElementById("SelectedTimeZone").value;
+        const now = new Date();
+
+        const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000); // Get UTC time
+        const selectedTime = new Date(utcTime + (new Date().toLocaleString('en-US', {timeZone: selectedTimeZone})).getHours() * 3600000);
+        document.getElementById("selected-time").innerHTML = formatDate(selectedTime); // Update the selected time display
+    }
+</script>

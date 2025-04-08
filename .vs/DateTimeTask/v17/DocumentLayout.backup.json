@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|c:\\users\\asus\\source\\repos\\datetimetask\\datetimetask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|solutionrelative:datetimetask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|c:\\users\\asus\\source\\repos\\datetimetask\\datetimetask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|solutionrelative:datetimetask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|c:\\users\\asus\\source\\repos\\datetimetask\\datetimetask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|solutionrelative:datetimetask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|c:\\users\\asus\\source\\repos\\datetimetask\\datetimetask\\models\\timezoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B33D6DA-7392-40D4-9A4A-47AEEACD9B10}|DateTimeTask\\DateTimeTask.csproj|solutionrelative:datetimetask\\models\\timezoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 70,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DateTimeTask\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DateTimeTask\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T15:24:25.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DateTimeTask\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DateTimeTask\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAqwJMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T15:23:18.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DateTimeTask\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DateTimeTask\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:15:10.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimeZoneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Models\\TimeZoneViewModel.cs",
+              "RelativeDocumentMoniker": "DateTimeTask\\Models\\TimeZoneViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DateTimeTask\\DateTimeTask\\Models\\TimeZoneViewModel.cs",
+              "RelativeToolTip": "DateTimeTask\\Models\\TimeZoneViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:15:50.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
